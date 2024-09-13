@@ -18,7 +18,6 @@ namespace Server
             app.Run();
         }
 
-
         private static void StartCurrencyUpdates(IServiceProvider services)
         {
             var random = new Random();
